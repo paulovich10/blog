@@ -1,0 +1,35 @@
+<div class="container formulario">
+    <form novalidate [formGroup]="formulario" (ngSubmit)="onSubmit()">
+        <div class="form-group">
+            <label for="">Inserta titulo</label>
+            <input type="text" class="form-control" formControlName="titulo">
+
+
+        </div>
+        <div class="form-group">
+            <label for="">Inserta el texto</label>
+            <input type="text" class="form-control" formControlName="texto">
+        </div>
+        <div class="form-group">
+            <label for="">Autor</label>
+            <input type="text" class="form-control" formControlName="autor">
+        </div>
+        <div class="form-group">
+            <label for="">Imagen</label>
+            <input type="text" class="form-control" formControlName="imagen">
+
+        </div>
+        <div class="form-group">
+            <label for="">Fecha</label>
+            <input type="text   " class="form-control" formControlName="fecha">
+        </div>
+        <div class="form-group">
+            <label for="">Categoría</label>
+            <input type="text" class="form-control" formControlName="categoria">
+        </div>
+
+        <input type="submit" value="Enviar" class="btn btn-block btn-primary">
+    </form>
+</div>
+
+<button [routerLink]="['/blog']">ver posts</button>

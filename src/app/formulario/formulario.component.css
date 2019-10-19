@@ -1,0 +1,16 @@
+.formulario {
+    width: 50%;
+    margin-top: 5%;
+}
+
+button {
+    background-color: cornflowerblue;
+    color: white;
+    border: none;
+    font-size: 1.4em;
+    padding: 1%;
+    margin: 2% auto;
+    display: block;
+    cursor: pointer;
+
+}

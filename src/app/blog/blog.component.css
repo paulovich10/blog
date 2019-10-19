@@ -1,0 +1,17 @@
+button {
+    background-color: black;
+    color: white;
+    border: none;
+    font-size: 1.4em;
+    padding: 2%;
+    margin: 2% auto;
+    display: block;
+    cursor: pointer;
+
+}
+
+.titular {
+
+    text-align: center;
+    padding-top: 5%;
+}

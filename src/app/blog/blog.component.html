@@ -1,0 +1,17 @@
+<button [routerLink]="['/new']">crear nuevo post</button>
+<h1 class=" text-center mt-5 mb-5">Nuevos posts</h1>
+<div class="container">
+    <div class="" *ngFor="let post of arrPosts">
+        <div class="row m-5">
+            <img class="mr-2 col-2" [src]="post.imagen" alt="Card image cap">
+            <div class="col-9">
+                <h3 class="">{{post.categoria}}</h3>
+                <h5 class="">{{post.titulo}}</h5>
+                <p class="">{{post.fecha}}</p>
+                <p class="">{{post.texto}}</p>
+                <p class="">{{post.autor}}</p>
+                <!-- <a href="#" class="btn btn-primary btn-block" [routerLink]="[esc.id, 'libros']">Detalle</a> -->
+            </div>
+        </div>
+    </div>
+</div>
